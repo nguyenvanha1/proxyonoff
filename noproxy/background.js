@@ -7,6 +7,6 @@
         if (chrome.runtime.lastError) {
             console.error("Error clearing proxy:", chrome.runtime.lastError.message);
         } else {
-            console.log"Proxy settings cleared.");
+            console.log("Proxy settings cleared.");
         }
     }); 
